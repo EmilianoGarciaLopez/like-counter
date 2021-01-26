@@ -12,7 +12,7 @@ body {
     ); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(
       -90deg,
-      lightblue,
+      rgb(230, 173, 173),
       black
     ); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(
@@ -20,7 +20,7 @@ body {
       rgb(255, 93, 93),
       rgb(247, 217, 217)
     ); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, rgb(0, 1, 88), black); /* Standard syntax */
+    background: linear-gradient(-90deg, rgb(230, 173, 173), black); /* Standard syntax */
   }
   
   .main {
@@ -36,12 +36,15 @@ body {
     margin: 20px;
     border-radius: 50px;
     background: transparent;
-    text-shadow: 1px 1px 1px #ffb8b8;
     font-family: "Lato", sans-serif;
     font-size: 18pt;
-    border: 2px solid rgb(250, 101, 101);
-    color: lightblue;
+    border: 3px solid rgb(250, 101, 101);
+    color: white;
     outline: none;
+  }
+
+  button:hover {
+    background: rgb(250, 101, 101);
   }
   
   h3 {
