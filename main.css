@@ -29,10 +29,11 @@ body .main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1152px;
 }
 
 body .main button {
-  width: 25%;
+  width: 60%;
   height: 8%;
   background: #141204;
   color: white;
@@ -43,6 +44,7 @@ body .main button {
   outline: none;
   font-size: x-large;
   font-family: 'Nunito', sans-serif;
+  cursor: pointer;
 }
 
 body .main :nth-child(2) {
